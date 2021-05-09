@@ -1,0 +1,899 @@
+2021-05-08 19:19:31,079 [11796] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2021-05-08 19:19:31,080 [11796] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2021-05-08 19:19:31,080 [11796] INFO     root:247: [JupyterRequire] Initializing comms.
+2021-05-08 19:19:31,086 [11796] DEBUG    root:197: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2021-05-08 19:19:31,089 [11796] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2021-05-08 19:19:31,090 [11796] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2021-05-08 19:19:31,891 [11796] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2021-05-08 19:19:31,894 [11796] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2021-05-08 19:19:31,894 [11796] INFO     root:247: [JupyterRequire] Initializing comms.
+2021-05-08 19:19:31,899 [11796] DEBUG    root:197: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2021-05-08 19:19:31,899 [11796] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2021-05-08 19:19:31,900 [11796] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2021-05-08 19:27:51,612 [11796] INFO     WDM:22: [JupyterRequire] 
+
+2021-05-08 19:27:51,616 [11796] INFO     WDM:12: [JupyterRequire] ====== WebDriver manager ======
+2021-05-08 19:27:51,905 [11796] INFO     WDM:12: [JupyterRequire] Current google-chrome version is 89.0.4389
+2021-05-08 19:27:51,906 [11796] INFO     WDM:12: [JupyterRequire] Get LATEST driver version for 89.0.4389
+2021-05-08 19:27:51,915 [11796] DEBUG    urllib3.connectionpool:941: [JupyterRequire] Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2021-05-08 19:27:52,454 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_89.0.4389 HTTP/1.1" 200 12
+2021-05-08 19:27:52,457 [11796] INFO     WDM:12: [JupyterRequire] There is no [win32] chromedriver for browser 89.0.4389 in cache
+2021-05-08 19:27:52,459 [11796] INFO     WDM:12: [JupyterRequire] Get LATEST driver version for 89.0.4389
+2021-05-08 19:27:52,467 [11796] DEBUG    urllib3.connectionpool:941: [JupyterRequire] Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2021-05-08 19:27:52,648 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_89.0.4389 HTTP/1.1" 200 12
+2021-05-08 19:27:52,652 [11796] INFO     WDM:12: [JupyterRequire] Trying to download new driver from https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_win32.zip
+2021-05-08 19:27:52,655 [11796] DEBUG    urllib3.connectionpool:941: [JupyterRequire] Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2021-05-08 19:27:52,909 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] https://chromedriver.storage.googleapis.com:443 "GET /89.0.4389.23/chromedriver_win32.zip HTTP/1.1" 200 5960870
+2021-05-08 19:27:54,462 [11796] INFO     WDM:12: [JupyterRequire] Driver has been saved in cache [C:\Users\rober\.wdm\drivers\chromedriver\win32\89.0.4389.23]
+2021-05-08 19:27:58,687 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-05-08 19:27:58,688 [11796] DEBUG    urllib3.connectionpool:230: [JupyterRequire] Starting new HTTP connection (1): 127.0.0.1:51698
+2021-05-08 19:28:08,539 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session HTTP/1.1" 200 751
+2021-05-08 19:28:08,539 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:08,540 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps"}
+2021-05-08 19:28:12,413 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:12,413 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:12,414 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:12,745 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 1217932
+2021-05-08 19:28:12,788 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:14,087 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"}
+2021-05-08 19:28:17,534 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:17,534 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:17,535 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:17,626 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 917193
+2021-05-08 19:28:17,637 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:17,720 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.facebook.katana"}
+2021-05-08 19:28:19,447 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:19,447 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:19,448 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:19,670 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 942338
+2021-05-08 19:28:19,684 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:19,776 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.facebook.orca"}
+2021-05-08 19:28:22,626 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:22,626 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:22,627 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:23,013 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 951410
+2021-05-08 19:28:23,028 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:23,168 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.facebook.lite"}
+2021-05-08 19:28:24,577 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:24,578 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:24,579 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:24,905 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 936247
+2021-05-08 19:28:24,923 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:25,074 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.outfit7.mytalkingangelafree"}
+2021-05-08 19:28:26,917 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:26,918 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:26,918 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:27,042 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 955580
+2021-05-08 19:28:27,061 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:27,218 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.roblox.client"}
+2021-05-08 19:28:29,247 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:29,248 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:29,249 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:29,395 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 917957
+2021-05-08 19:28:29,419 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:29,554 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.outfit7.mytalkingtomfriends"}
+2021-05-08 19:28:31,425 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:31,426 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:31,427 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:31,670 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 954283
+2021-05-08 19:28:31,692 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:31,868 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.instagram.android"}
+2021-05-08 19:28:33,216 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:33,217 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:33,218 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:33,550 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 938120
+2021-05-08 19:28:33,567 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:33,782 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=video.like"}
+2021-05-08 19:28:35,330 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:35,330 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:35,331 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:35,437 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 937037
+2021-05-08 19:28:35,447 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:35,583 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.movile.playkids.pkxd"}
+2021-05-08 19:28:36,923 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:36,924 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:36,924 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:37,347 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 947675
+2021-05-08 19:28:37,366 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:37,480 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically.go"}
+2021-05-08 19:28:38,841 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:38,842 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:38,843 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:39,158 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 903631
+2021-05-08 19:28:39,175 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:39,303 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.adobe.reader"}
+2021-05-08 19:28:40,935 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:40,936 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:40,937 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:41,061 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 937196
+2021-05-08 19:28:41,083 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:41,224 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=cc.forestapp"}
+2021-05-08 19:28:42,713 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:42,714 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:42,714 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:42,964 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 929980
+2021-05-08 19:28:42,984 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:43,131 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=net.daylio"}
+2021-05-08 19:28:44,289 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:44,290 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:44,290 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:44,635 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 912611
+2021-05-08 19:28:44,653 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:44,807 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=vsin.t16_funny_photo"}
+2021-05-08 19:28:46,093 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:46,094 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:46,095 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:46,400 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 929675
+2021-05-08 19:28:46,421 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:46,552 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.endel.endel"}
+2021-05-08 19:28:48,106 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:48,107 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:48,108 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:48,239 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 918060
+2021-05-08 19:28:48,259 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:48,393 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.dashlane"}
+2021-05-08 19:28:49,769 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:49,770 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:49,771 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:50,102 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 911820
+2021-05-08 19:28:50,118 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:50,255 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=fm.player"}
+2021-05-08 19:28:53,072 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:53,073 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:53,073 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:53,208 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 934964
+2021-05-08 19:28:53,225 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:53,390 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=net.metapps.sleepsounds"}
+2021-05-08 19:28:54,764 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:54,765 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:54,765 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:55,063 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 924259
+2021-05-08 19:28:55,081 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:55,202 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=at.funmusic.sepp.mobile"}
+2021-05-08 19:28:56,547 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:56,550 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:56,551 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:56,866 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 959392
+2021-05-08 19:28:56,883 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:57,023 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.instagram.android"}
+2021-05-08 19:28:58,264 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:28:58,265 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:58,265 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:28:58,560 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 938115
+2021-05-08 19:28:58,579 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:28:58,803 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.roblox.client"}
+2021-05-08 19:29:00,214 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:00,214 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:00,215 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:00,330 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 917952
+2021-05-08 19:29:00,347 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:00,490 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.outfit7.mytalkingtomfriends"}
+2021-05-08 19:29:01,692 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:01,693 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:01,694 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:02,041 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 955793
+2021-05-08 19:29:02,062 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:02,201 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=videoeditor.videorecorder.screenrecorder"}
+2021-05-08 19:29:03,426 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:03,427 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:03,428 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:03,762 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 961088
+2021-05-08 19:29:03,777 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:03,927 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically.go"}
+2021-05-08 19:29:05,153 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:05,157 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:05,158 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:05,392 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 903635
+2021-05-08 19:29:05,407 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:05,525 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.superbinogo.jungleboyadventure"}
+2021-05-08 19:29:06,773 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:06,774 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:06,775 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:07,094 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 938757
+2021-05-08 19:29:07,114 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:07,278 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.facebook.mlite"}
+2021-05-08 19:29:08,544 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:08,545 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:08,546 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:08,893 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 934166
+2021-05-08 19:29:08,913 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:09,043 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.kwai.video"}
+2021-05-08 19:29:10,527 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:10,528 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:10,528 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:10,654 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 921080
+2021-05-08 19:29:10,674 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:10,808 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas"}
+2021-05-08 19:29:12,099 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:12,101 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:12,102 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:12,478 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 922137
+2021-05-08 19:29:12,495 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:12,635 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.facebook.lite"}
+2021-05-08 19:29:14,147 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:14,148 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:14,148 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:14,456 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 936222
+2021-05-08 19:29:14,476 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:14,618 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocaoffice"}
+2021-05-08 19:29:15,827 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:15,828 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:15,829 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:16,174 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 935110
+2021-05-08 19:29:16,194 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:16,313 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.quvideo.xiaoying.pro"}
+2021-05-08 19:29:17,648 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:17,648 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:17,650 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:17,962 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 930188
+2021-05-08 19:29:17,979 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:18,113 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocaafterschool"}
+2021-05-08 19:29:20,047 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:20,047 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:20,048 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:20,167 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 942264
+2021-05-08 19:29:20,188 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:20,412 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.netflix.mediaclient"}
+2021-05-08 19:29:21,681 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:21,685 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:21,685 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:21,986 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 954080
+2021-05-08 19:29:22,001 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:22,149 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=org.telegram.messenger"}
+2021-05-08 19:29:23,443 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:23,444 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:23,445 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:23,782 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 917092
+2021-05-08 19:29:23,802 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:23,934 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.facebook.mlite"}
+2021-05-08 19:29:25,469 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:25,470 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:25,471 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:25,590 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 932661
+2021-05-08 19:29:25,607 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:25,788 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=video.like.lite"}
+2021-05-08 19:29:27,227 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:27,228 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:27,229 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:27,353 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 913815
+2021-05-08 19:29:27,372 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:27,508 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.duolingo"}
+2021-05-08 19:29:28,763 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:28,766 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:28,767 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:29,088 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 914738
+2021-05-08 19:29:29,106 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:29,235 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.camerasideas.instashot"}
+2021-05-08 19:29:30,581 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:30,582 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:30,582 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:30,890 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 927989
+2021-05-08 19:29:30,905 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:31,044 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.spotify.lite"}
+2021-05-08 19:29:32,520 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:32,522 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:32,522 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:32,633 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 927374
+2021-05-08 19:29:32,649 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:32,802 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.mercadolibre"}
+2021-05-08 19:29:34,080 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:34,080 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:34,081 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:34,395 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 910103
+2021-05-08 19:29:34,412 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:34,613 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.truecaller"}
+2021-05-08 19:29:35,940 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:35,942 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:35,942 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:36,294 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 910032
+2021-05-08 19:29:36,312 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:36,451 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.facebook.lite"}
+2021-05-08 19:29:38,140 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:38,141 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:38,141 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:38,256 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 934742
+2021-05-08 19:29:38,268 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:38,399 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.spotify.music"}
+2021-05-08 19:29:39,667 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:39,668 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:39,668 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:39,957 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 961180
+2021-05-08 19:29:39,972 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:40,127 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.shazam.android"}
+2021-05-08 19:29:41,392 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:41,395 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:41,396 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:41,700 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 897658
+2021-05-08 19:29:41,713 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:41,847 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.soundcloud.android"}
+2021-05-08 19:29:43,089 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:43,091 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:43,092 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:43,429 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 913397
+2021-05-08 19:29:43,452 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:43,667 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient"}
+2021-05-08 19:29:45,213 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:45,215 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:45,217 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:45,343 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 942166
+2021-05-08 19:29:45,368 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:45,511 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.google.android.play.games"}
+2021-05-08 19:29:46,898 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:46,900 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:46,901 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:47,246 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 937893
+2021-05-08 19:29:47,265 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:47,406 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=wp.wattpad"}
+2021-05-08 19:29:48,714 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:48,716 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:48,718 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:49,062 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 933785
+2021-05-08 19:29:49,077 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:49,210 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.google.android.apps.translate"}
+2021-05-08 19:29:50,524 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:50,525 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:50,526 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:50,871 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 952244
+2021-05-08 19:29:50,886 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:51,016 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.microsoft.office.word"}
+2021-05-08 19:29:52,552 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:52,553 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:52,553 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:52,681 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 944064
+2021-05-08 19:29:52,702 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:52,844 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.waze"}
+2021-05-08 19:29:54,049 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:54,050 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:54,050 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:54,389 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 915944
+2021-05-08 19:29:54,405 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:54,536 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.truecaller"}
+2021-05-08 19:29:55,733 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:55,734 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:55,734 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:56,078 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 910034
+2021-05-08 19:29:56,098 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:56,228 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.gamma.scan"}
+2021-05-08 19:29:57,673 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:57,673 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:57,673 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:57,795 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 935253
+2021-05-08 19:29:57,814 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:57,955 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=cn.xender"}
+2021-05-08 19:29:59,348 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:29:59,349 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:59,349 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:29:59,472 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 910823
+2021-05-08 19:29:59,494 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:29:59,634 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.teacapps.barcodescanner"}
+2021-05-08 19:30:00,995 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:30:00,996 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:00,996 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:30:01,308 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 937239
+2021-05-08 19:30:01,329 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:01,474 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.UCMobile.intl"}
+2021-05-08 19:30:02,786 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:30:02,787 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:02,788 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:30:03,103 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 911049
+2021-05-08 19:30:03,125 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:03,245 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.google.android.apps.adm"}
+2021-05-08 19:30:04,620 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:30:04,621 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:04,621 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:30:05,009 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 932249
+2021-05-08 19:30:05,029 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:05,275 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=videoeditor.videorecorder.screenrecorder"}
+2021-05-08 19:30:06,501 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:30:06,502 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:06,503 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:30:06,847 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 961070
+2021-05-08 19:30:06,865 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:07,020 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas"}
+2021-05-08 19:30:08,208 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:30:08,209 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:08,209 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:30:08,566 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 922129
+2021-05-08 19:30:08,582 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:08,712 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.camerasideas.instashot"}
+2021-05-08 19:30:09,974 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:30:09,975 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:09,977 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:30:10,286 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 927991
+2021-05-08 19:30:10,301 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:10,428 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.nexstreaming.app.kinemasterfree"}
+2021-05-08 19:30:11,960 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:30:11,961 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:11,961 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:30:12,090 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 945018
+2021-05-08 19:30:12,110 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:12,254 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.picsart.studio"}
+2021-05-08 19:30:13,524 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:30:13,525 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:13,525 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:30:13,886 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 953574
+2021-05-08 19:30:13,907 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:14,065 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.alibaba.aliexpresshd"}
+2021-05-08 19:30:15,398 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:30:15,399 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:15,399 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:30:15,682 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 943938
+2021-05-08 19:30:15,701 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:15,844 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/url {"url": "https://play.google.com/store/apps/details?id=com.skype.raider"}
+2021-05-08 19:30:17,059 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/url HTTP/1.1" 200 14
+2021-05-08 19:30:17,060 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:30:17,060 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:51698/session/49831c873a940f13bec2ca65058ed038/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:30:17,383 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:51698 "POST /session/49831c873a940f13bec2ca65058ed038/execute/sync HTTP/1.1" 200 906052
+2021-05-08 19:30:17,399 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:33:31,755 [11796] INFO     WDM:12: [JupyterRequire] 
+
+2021-05-08 19:33:31,758 [11796] INFO     WDM:12: [JupyterRequire] ====== WebDriver manager ======
+2021-05-08 19:33:31,950 [11796] INFO     WDM:12: [JupyterRequire] Current google-chrome version is 90.0.4430
+2021-05-08 19:33:31,952 [11796] INFO     WDM:12: [JupyterRequire] Get LATEST driver version for 90.0.4430
+2021-05-08 19:33:31,959 [11796] DEBUG    urllib3.connectionpool:941: [JupyterRequire] Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2021-05-08 19:33:32,407 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_90.0.4430 HTTP/1.1" 200 12
+2021-05-08 19:33:32,419 [11796] INFO     WDM:12: [JupyterRequire] There is no [win32] chromedriver for browser 90.0.4430 in cache
+2021-05-08 19:33:32,420 [11796] INFO     WDM:12: [JupyterRequire] Get LATEST driver version for 90.0.4430
+2021-05-08 19:33:32,422 [11796] DEBUG    urllib3.connectionpool:941: [JupyterRequire] Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2021-05-08 19:33:32,605 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_90.0.4430 HTTP/1.1" 200 12
+2021-05-08 19:33:32,615 [11796] INFO     WDM:12: [JupyterRequire] Trying to download new driver from https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_win32.zip
+2021-05-08 19:33:32,627 [11796] DEBUG    urllib3.connectionpool:941: [JupyterRequire] Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2021-05-08 19:33:32,850 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] https://chromedriver.storage.googleapis.com:443 "GET /90.0.4430.24/chromedriver_win32.zip HTTP/1.1" 200 5943128
+2021-05-08 19:33:34,312 [11796] INFO     WDM:12: [JupyterRequire] Driver has been saved in cache [C:\Users\rober\.wdm\drivers\chromedriver\win32\90.0.4430.24]
+2021-05-08 19:33:36,838 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52289/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-05-08 19:33:36,841 [11796] DEBUG    urllib3.connectionpool:230: [JupyterRequire] Starting new HTTP connection (1): 127.0.0.1:52289
+2021-05-08 19:33:37,968 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52289 "POST /session HTTP/1.1" 200 751
+2021-05-08 19:33:37,968 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:33:37,969 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52289/session/721a17cfe509ea65e83a0885ef59a8d1/url {"url": "https://play.google.com/store/apps"}
+2021-05-08 19:33:43,266 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52289 "POST /session/721a17cfe509ea65e83a0885ef59a8d1/url HTTP/1.1" 200 14
+2021-05-08 19:33:43,267 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:33:43,268 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52289/session/721a17cfe509ea65e83a0885ef59a8d1/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:33:43,635 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52289 "POST /session/721a17cfe509ea65e83a0885ef59a8d1/execute/sync HTTP/1.1" 200 1218104
+2021-05-08 19:33:43,670 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:46:32,043 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52289/session/721a17cfe509ea65e83a0885ef59a8d1/url {"url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"}
+2021-05-08 19:46:44,186 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52289 "POST /session/721a17cfe509ea65e83a0885ef59a8d1/url HTTP/1.1" 500 1015
+2021-05-08 19:46:44,186 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:46:57,849 [11796] INFO     WDM:12: [JupyterRequire] 
+
+2021-05-08 19:46:57,851 [11796] INFO     WDM:12: [JupyterRequire] ====== WebDriver manager ======
+2021-05-08 19:46:57,963 [11796] INFO     WDM:12: [JupyterRequire] Current google-chrome version is 90.0.4430
+2021-05-08 19:46:57,964 [11796] INFO     WDM:12: [JupyterRequire] Get LATEST driver version for 90.0.4430
+2021-05-08 19:46:57,969 [11796] DEBUG    urllib3.connectionpool:941: [JupyterRequire] Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2021-05-08 19:46:58,406 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_90.0.4430 HTTP/1.1" 200 12
+2021-05-08 19:46:58,416 [11796] INFO     WDM:12: [JupyterRequire] Driver [C:\Users\rober\.wdm\drivers\chromedriver\win32\90.0.4430.24\chromedriver.exe] found in cache
+2021-05-08 19:46:58,948 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-05-08 19:46:58,949 [11796] DEBUG    urllib3.connectionpool:230: [JupyterRequire] Starting new HTTP connection (1): 127.0.0.1:52834
+2021-05-08 19:47:00,124 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session HTTP/1.1" 200 752
+2021-05-08 19:47:00,126 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:47:00,127 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps"}
+2021-05-08 19:47:02,733 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:47:02,734 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:47:02,735 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:47:02,901 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 1217978
+2021-05-08 19:47:02,925 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:47:09,938 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"}
+2021-05-08 19:47:11,649 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:47:11,650 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:47:11,650 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:47:11,931 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 917194
+2021-05-08 19:47:11,947 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:47:18,721 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"}
+2021-05-08 19:47:20,081 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:47:20,082 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:47:20,083 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:47:20,195 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 915684
+2021-05-08 19:47:20,207 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:47:26,682 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"}
+2021-05-08 19:47:28,258 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:47:28,259 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:47:28,259 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:47:28,510 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 917189
+2021-05-08 19:47:28,522 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:48:02,552 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"}
+2021-05-08 19:48:03,993 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:48:03,994 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:48:03,994 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:48:04,123 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 915688
+2021-05-08 19:48:04,138 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:26,728 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"}
+2021-05-08 19:51:27,958 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:51:27,959 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:27,960 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:51:28,296 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 917202
+2021-05-08 19:51:28,308 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:33,831 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"}
+2021-05-08 19:51:34,954 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:51:34,955 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:34,956 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:51:35,219 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 917189
+2021-05-08 19:51:35,240 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:47,260 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"}
+2021-05-08 19:51:48,479 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:51:48,479 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:48,480 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:51:48,693 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 917169
+2021-05-08 19:51:48,708 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:48,824 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.facebook.katana"}
+2021-05-08 19:51:50,085 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:51:50,085 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:50,086 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:51:50,344 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 942340
+2021-05-08 19:51:50,359 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:50,486 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.facebook.orca"}
+2021-05-08 19:51:51,729 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:51:51,729 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:51,729 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:51:51,986 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 951411
+2021-05-08 19:51:52,000 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:52,131 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.facebook.lite"}
+2021-05-08 19:51:53,411 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:51:53,411 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:53,412 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:51:53,671 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 936231
+2021-05-08 19:51:53,686 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:53,806 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.outfit7.mytalkingangelafree"}
+2021-05-08 19:51:55,145 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:51:55,146 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:55,146 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:51:55,439 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 955573
+2021-05-08 19:51:55,458 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:55,573 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.roblox.client"}
+2021-05-08 19:51:56,778 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:51:56,780 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:56,781 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:51:57,029 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 917971
+2021-05-08 19:51:57,046 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:57,156 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.outfit7.mytalkingtomfriends"}
+2021-05-08 19:51:58,388 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:51:58,388 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:51:58,389 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:51:58,685 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 955799
+2021-05-08 19:51:58,694 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:00,945 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.instagram.android"}
+2021-05-08 19:52:02,281 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:02,282 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:02,283 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:02,398 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 936604
+2021-05-08 19:52:02,418 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:02,550 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=video.like"}
+2021-05-08 19:52:03,872 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:03,873 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:03,874 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:03,983 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 935540
+2021-05-08 19:52:03,996 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:04,118 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.movile.playkids.pkxd"}
+2021-05-08 19:52:05,458 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:05,458 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:05,458 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:05,565 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 947670
+2021-05-08 19:52:05,585 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:05,708 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically.go"}
+2021-05-08 19:52:07,091 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:07,091 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:07,092 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:07,291 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 903638
+2021-05-08 19:52:07,312 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:07,443 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.adobe.reader"}
+2021-05-08 19:52:10,104 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:10,105 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:10,106 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:10,419 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 938710
+2021-05-08 19:52:10,447 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:10,573 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=cc.forestapp"}
+2021-05-08 19:52:12,435 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:12,438 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:12,440 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:12,870 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 929987
+2021-05-08 19:52:12,897 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:13,068 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=net.daylio"}
+2021-05-08 19:52:15,005 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:15,006 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:15,007 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:15,368 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 912615
+2021-05-08 19:52:15,380 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:15,486 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=vsin.t16_funny_photo"}
+2021-05-08 19:52:17,210 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:17,213 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:17,214 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:17,569 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 929647
+2021-05-08 19:52:17,587 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:17,720 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.endel.endel"}
+2021-05-08 19:52:19,289 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:19,290 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:19,291 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:19,591 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 919948
+2021-05-08 19:52:19,607 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:19,763 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.dashlane"}
+2021-05-08 19:52:21,537 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:21,538 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:21,539 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:22,001 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 911860
+2021-05-08 19:52:22,030 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:22,248 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=fm.player"}
+2021-05-08 19:52:24,496 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:24,497 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:24,498 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:24,856 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 937100
+2021-05-08 19:52:24,881 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:25,130 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=net.metapps.sleepsounds"}
+2021-05-08 19:52:26,994 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:26,995 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:26,996 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:27,375 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 924661
+2021-05-08 19:52:27,391 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:27,943 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=at.funmusic.sepp.mobile"}
+2021-05-08 19:52:30,085 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:30,086 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:30,087 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:30,249 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 958278
+2021-05-08 19:52:30,281 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:30,519 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.instagram.android"}
+2021-05-08 19:52:32,736 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:32,740 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:32,741 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:33,142 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 938056
+2021-05-08 19:52:33,161 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:33,402 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.roblox.client"}
+2021-05-08 19:52:35,348 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:35,350 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:35,356 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:35,741 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 917865
+2021-05-08 19:52:35,765 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:35,982 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.outfit7.mytalkingtomfriends"}
+2021-05-08 19:52:38,082 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:38,083 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:38,083 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:38,297 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 954292
+2021-05-08 19:52:38,324 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:38,571 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=videoeditor.videorecorder.screenrecorder"}
+2021-05-08 19:52:40,497 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:40,498 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:40,498 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:40,988 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 961454
+2021-05-08 19:52:41,025 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:41,262 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically.go"}
+2021-05-08 19:52:42,910 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:42,911 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:42,911 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:43,402 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 903939
+2021-05-08 19:52:43,416 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:43,521 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.superbinogo.jungleboyadventure"}
+2021-05-08 19:52:44,725 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:44,726 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:44,727 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:45,244 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 938641
+2021-05-08 19:52:45,260 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:45,373 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.facebook.mlite"}
+2021-05-08 19:52:46,869 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:46,870 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:46,871 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:46,983 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 933057
+2021-05-08 19:52:47,007 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:47,201 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.kwai.video"}
+2021-05-08 19:52:48,455 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:48,457 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:48,458 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:49,140 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 922984
+2021-05-08 19:52:49,172 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:49,430 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas"}
+2021-05-08 19:52:51,008 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:51,009 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:51,009 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:51,240 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 920831
+2021-05-08 19:52:51,267 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:51,557 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.facebook.lite"}
+2021-05-08 19:52:53,453 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:53,454 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:53,454 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:53,827 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 936145
+2021-05-08 19:52:53,837 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:53,923 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocaoffice"}
+2021-05-08 19:52:55,566 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:55,568 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:55,569 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:56,010 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 935013
+2021-05-08 19:52:56,032 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:56,293 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.quvideo.xiaoying.pro"}
+2021-05-08 19:52:57,569 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:57,569 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:57,570 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:57,685 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 928874
+2021-05-08 19:52:57,699 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:57,903 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocaafterschool"}
+2021-05-08 19:52:59,273 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:52:59,274 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:59,274 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:52:59,635 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 942169
+2021-05-08 19:52:59,656 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:52:59,809 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.netflix.mediaclient"}
+2021-05-08 19:53:01,919 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:01,920 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:01,921 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:02,299 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 954057
+2021-05-08 19:53:02,313 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:02,445 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=org.telegram.messenger"}
+2021-05-08 19:53:03,890 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:03,890 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:03,891 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:04,282 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 917092
+2021-05-08 19:53:04,297 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:04,410 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.facebook.mlite"}
+2021-05-08 19:53:06,263 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:06,264 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:06,264 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:06,394 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 934154
+2021-05-08 19:53:06,418 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:06,558 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=video.like.lite"}
+2021-05-08 19:53:08,171 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:08,172 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:08,172 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:08,469 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 915307
+2021-05-08 19:53:08,483 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:08,623 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.duolingo"}
+2021-05-08 19:53:10,391 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:10,394 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:10,397 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:10,724 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 914722
+2021-05-08 19:53:10,735 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:10,866 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.camerasideas.instashot"}
+2021-05-08 19:53:12,807 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:12,811 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:12,813 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:12,975 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 927982
+2021-05-08 19:53:13,008 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:13,118 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.spotify.lite"}
+2021-05-08 19:53:14,702 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:14,703 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:14,704 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:15,074 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 928878
+2021-05-08 19:53:15,091 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:15,218 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.mercadolibre"}
+2021-05-08 19:53:16,741 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:16,743 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:16,743 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:17,092 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 910074
+2021-05-08 19:53:17,100 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:17,195 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.truecaller"}
+2021-05-08 19:53:18,896 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:18,899 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:18,900 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:19,275 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 910036
+2021-05-08 19:53:19,289 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:19,399 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.facebook.lite"}
+2021-05-08 19:53:21,151 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:21,152 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:21,152 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:21,540 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 936253
+2021-05-08 19:53:21,556 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:21,677 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.spotify.music"}
+2021-05-08 19:53:23,402 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:23,403 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:23,404 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:23,855 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 961166
+2021-05-08 19:53:23,872 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:24,102 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.shazam.android"}
+2021-05-08 19:53:26,130 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:26,131 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:26,132 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:26,571 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 897668
+2021-05-08 19:53:26,586 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:26,716 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.soundcloud.android"}
+2021-05-08 19:53:28,542 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:28,544 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:28,547 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:28,994 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 913397
+2021-05-08 19:53:29,007 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:29,141 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient"}
+2021-05-08 19:53:30,748 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:30,749 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:30,750 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:30,847 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 942167
+2021-05-08 19:53:30,861 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:30,980 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.google.android.play.games"}
+2021-05-08 19:53:32,289 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:32,290 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:32,291 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:32,672 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 937908
+2021-05-08 19:53:32,681 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:32,796 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=wp.wattpad"}
+2021-05-08 19:53:34,166 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:34,167 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:34,168 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:34,505 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 933795
+2021-05-08 19:53:34,520 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:34,679 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.google.android.apps.translate"}
+2021-05-08 19:53:36,038 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:36,039 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:36,039 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:36,378 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 952240
+2021-05-08 19:53:36,393 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:36,540 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.microsoft.office.word"}
+2021-05-08 19:53:38,287 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:38,287 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:38,288 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:38,410 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 945601
+2021-05-08 19:53:38,426 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:38,576 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.waze"}
+2021-05-08 19:53:39,822 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:39,823 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:39,824 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:40,122 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 915947
+2021-05-08 19:53:40,141 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:40,278 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.truecaller"}
+2021-05-08 19:53:41,629 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:41,630 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:41,631 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:41,915 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 910040
+2021-05-08 19:53:41,924 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:41,997 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.gamma.scan"}
+2021-05-08 19:53:44,381 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:44,382 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:44,382 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:44,752 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 935234
+2021-05-08 19:53:44,771 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:44,925 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=cn.xender"}
+2021-05-08 19:53:46,447 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:46,448 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:46,448 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:46,568 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 910826
+2021-05-08 19:53:46,587 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:46,716 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.teacapps.barcodescanner"}
+2021-05-08 19:53:48,934 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:48,935 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:48,936 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:49,291 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 937227
+2021-05-08 19:53:49,310 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:49,456 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.UCMobile.intl"}
+2021-05-08 19:53:51,542 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:51,543 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:51,543 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:51,677 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 909526
+2021-05-08 19:53:51,693 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:51,928 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.google.android.apps.adm"}
+2021-05-08 19:53:53,183 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:53,183 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:53,184 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:53,510 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 932247
+2021-05-08 19:53:54,065 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:54,196 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=videoeditor.videorecorder.screenrecorder"}
+2021-05-08 19:53:55,376 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:55,377 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:55,378 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:55,471 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 959558
+2021-05-08 19:53:55,483 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:55,640 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas"}
+2021-05-08 19:53:56,907 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:56,907 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:56,908 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:56,999 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 920631
+2021-05-08 19:53:57,009 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:57,105 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.camerasideas.instashot"}
+2021-05-08 19:53:58,239 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:58,240 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:58,240 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:53:58,328 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 926465
+2021-05-08 19:53:58,337 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:58,432 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.nexstreaming.app.kinemasterfree"}
+2021-05-08 19:53:59,854 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:53:59,854 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:53:59,855 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:54:00,105 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 946551
+2021-05-08 19:54:00,116 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:54:00,217 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.picsart.studio"}
+2021-05-08 19:54:01,513 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:54:01,514 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:54:01,515 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:54:02,059 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 953566
+2021-05-08 19:54:02,087 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:54:02,210 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.alibaba.aliexpresshd"}
+2021-05-08 19:54:03,550 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:54:03,551 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:54:03,552 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:54:03,645 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 942409
+2021-05-08 19:54:03,659 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:54:03,770 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/url {"url": "https://play.google.com/store/apps/details?id=com.skype.raider"}
+2021-05-08 19:54:04,907 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/url HTTP/1.1" 200 14
+2021-05-08 19:54:04,908 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
+2021-05-08 19:54:04,909 [11796] DEBUG    selenium.webdriver.remote.remote_connection:388: [JupyterRequire] POST http://127.0.0.1:52834/session/267088f4801db2c933bba5f1dba6010e/execute/sync {"script": "return document.documentElement.outerHTML", "args": []}
+2021-05-08 19:54:05,236 [11796] DEBUG    urllib3.connectionpool:442: [JupyterRequire] http://127.0.0.1:52834 "POST /session/267088f4801db2c933bba5f1dba6010e/execute/sync HTTP/1.1" 200 906044
+2021-05-08 19:54:05,249 [11796] DEBUG    selenium.webdriver.remote.remote_connection:440: [JupyterRequire] Finished Request
